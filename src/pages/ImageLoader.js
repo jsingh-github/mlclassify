@@ -82,11 +82,11 @@ export class ImageLoader extends Component {
                      
                 </div>
                     { this.state.currentImage === '' ?
-                        <div></div>
-                        :<button 
-                            className="img-loader-button"
-                            onClick={() => this.classifyImage()}>Predict Score
-                        </button>
+                    <div></div>
+                    :<button 
+                        className="img-loader-button"
+                        onClick={() => this.classifyImage()}>Predict Score
+                    </button>
                       }
                </div>
 
