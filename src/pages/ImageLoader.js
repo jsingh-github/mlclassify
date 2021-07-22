@@ -4,6 +4,7 @@ import '@tensorflow/tfjs-backend-webgl';
 //import SampleDog from '../images/dogTest.jpg';
 import './imageloader.css';
 
+
 export class ImageLoader extends Component {
 
         
@@ -12,7 +13,8 @@ export class ImageLoader extends Component {
             this.state = {
                 currentImage: '',
                 previewImage: 'https://media.istockphoto.com/vectors/cat-and-dog-peeking-over-blank-sign-vector-id1141985544',
-                predictScore: []
+                predictScore: [],
+              
             }
           
           }
@@ -34,6 +36,8 @@ export class ImageLoader extends Component {
 
 
     classifyImage = async () => {
+
+       
         const model = await automl.loadImageClassification('./image_classification_model_v1/model.json')
 
         //const img = document.getElementById('animal_image');
@@ -43,6 +47,7 @@ export class ImageLoader extends Component {
 
         console.log('predictions', predictions)
         this.setState({predictScore: predictions})
+       
     }
 
     render() {
