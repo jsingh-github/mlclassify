@@ -40,7 +40,7 @@ fileSelectedHandle = (e) => {
 classifyImage = async () => {
 
     this.setState({loading:true})
-   
+    this.setState({predictScore:[]})
 
     const model = await automl.loadImageClassification('./image_classification_model_v1/model.json')
 
@@ -56,7 +56,7 @@ classifyImage = async () => {
     setTimeout(()=>{
       this.setState({predictScore: predictions});
       this.setState({loading:false})
-    },5000)
+    },2000)
 }
 
 render() {
