@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mlclassify/static/css/main.b8dc67d2.chunk.css",
+    "main.css": "/mlclassify/static/css/main.cdee2dfa.chunk.css",
     "main.js": "/mlclassify/static/js/main.4c705669.chunk.js",
     "main.js.map": "/mlclassify/static/js/main.4c705669.chunk.js.map",
     "runtime-main.js": "/mlclassify/static/js/runtime-main.878c8dd4.js",
@@ -12,14 +12,14 @@
     "static/js/3.e2fd79ae.chunk.js.map": "/mlclassify/static/js/3.e2fd79ae.chunk.js.map",
     "index.html": "/mlclassify/index.html",
     "static/css/2.ab75b8d7.chunk.css.map": "/mlclassify/static/css/2.ab75b8d7.chunk.css.map",
-    "static/css/main.b8dc67d2.chunk.css.map": "/mlclassify/static/css/main.b8dc67d2.chunk.css.map",
+    "static/css/main.cdee2dfa.chunk.css.map": "/mlclassify/static/css/main.cdee2dfa.chunk.css.map",
     "static/js/2.c271179e.chunk.js.LICENSE.txt": "/mlclassify/static/js/2.c271179e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.878c8dd4.js",
     "static/css/2.ab75b8d7.chunk.css",
     "static/js/2.c271179e.chunk.js",
-    "static/css/main.b8dc67d2.chunk.css",
+    "static/css/main.cdee2dfa.chunk.css",
     "static/js/main.4c705669.chunk.js"
   ]
 }
