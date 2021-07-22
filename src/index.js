@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ImageLoader from './pages/ImageLoader'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Switch> 
+          <Route path="/imageload" component={ImageLoader} />
+          <Route path="/" component={App} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
