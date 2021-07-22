@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mlclassify/static/css/main.f9dc0825.chunk.css",
+    "main.js": "/mlclassify/static/js/main.d7a1a520.chunk.js",
+    "main.js.map": "/mlclassify/static/js/main.d7a1a520.chunk.js.map",
+    "runtime-main.js": "/mlclassify/static/js/runtime-main.28dd90ad.js",
+    "runtime-main.js.map": "/mlclassify/static/js/runtime-main.28dd90ad.js.map",
+    "static/js/2.406ba5a5.chunk.js": "/mlclassify/static/js/2.406ba5a5.chunk.js",
+    "static/js/2.406ba5a5.chunk.js.map": "/mlclassify/static/js/2.406ba5a5.chunk.js.map",
+    "static/js/3.434b45f2.chunk.js": "/mlclassify/static/js/3.434b45f2.chunk.js",
+    "static/js/3.434b45f2.chunk.js.map": "/mlclassify/static/js/3.434b45f2.chunk.js.map",
+    "index.html": "/mlclassify/index.html",
+    "static/css/main.f9dc0825.chunk.css.map": "/mlclassify/static/css/main.f9dc0825.chunk.css.map",
+    "static/js/2.406ba5a5.chunk.js.LICENSE.txt": "/mlclassify/static/js/2.406ba5a5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mlclassify/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28dd90ad.js",
+    "static/js/2.406ba5a5.chunk.js",
+    "static/css/main.f9dc0825.chunk.css",
+    "static/js/main.d7a1a520.chunk.js"
+  ]
+}
