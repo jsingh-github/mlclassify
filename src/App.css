@@ -11,13 +11,12 @@ img {
   align-items: center;
   justify-content: center;
   
-  border: 1px solid gray
 }
 
 .img-main {
   align-items: center;
   height: 100vh; 
-
+  padding: 20px;
 }
 
 .img-loader-button {
