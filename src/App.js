@@ -42,7 +42,7 @@ classifyImage = async () => {
     this.setState({loading:true})
     this.setState({predictScore:[]})
 
-    const model = await automl.loadImageClassification('./image_classification_model_v1/model.json')
+    const model = await automl.loadImageClassification(process.env.PUBLIC_URL + '/image_classification_model_v1/model.json')
 
     //const img = document.getElementById('animal_image');
 
